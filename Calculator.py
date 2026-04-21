@@ -59,7 +59,7 @@ def calculate():
     operation = None
 
 
-equalsbutton = ctk.CTkButton(root, fg_color="blue", text="=", command=calculate, font=("Arial", 16))
+equalsbutton = ctk.CTkButton(root, fg_color="blue", text="=",height = 35, command=calculate, font=("Arial", 16))
 equalsbutton.grid(row=3, column=0, columnspan=4, pady=10)
 
 plusbutton = ctk.CTkButton(root, fg_color="green", text="+", command=set_plus, font=("Arial", 16),width=75, height=60,)
